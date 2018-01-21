@@ -10,7 +10,7 @@ public class URLA {
 			   incomeMonthlyPayment = incomePI + harzardInsurance + tax + buildingMaintenance,
 		       temp = 0, income = 0, deposit = 0, closingFee = loanAmount * 0.06;
 		
-		double[] liability = {475, 575};
+		double[] liability = {};
 		if(liability.length != 0){
 			for(double x : liability){
 				temp += x; 
