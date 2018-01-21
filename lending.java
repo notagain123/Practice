@@ -18,7 +18,7 @@ public class URLA {
 		}
 		
 		income = (incomeMonthlyPayment + temp) / 0.5;
-		deposit = contractAmount - loanAmount + closingFee + (monthlyPayment * 3) - emd;
+		deposit = contractAmount - loanAmount + closingFee + (monthlyPayment * 6) - emd;
 				
 		System.out.println("Income is : " + income);
 		System.out.println("Deposit amount is : " + deposit);
